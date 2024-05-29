@@ -59,9 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset("assets/logo.png",
-                      width: double.infinity,
-                      height: 300,
-                      fit: BoxFit.fitWidth),
+                      width: 400, height: 300, fit: BoxFit.fitWidth),
                   const SizedBox(height: 20),
                   const Text('اهلا بك ...',
                       style: TextStyle(fontSize: 20, color: Colors.white)),
